@@ -1,0 +1,14 @@
+
+@tag
+Feature: Abertura de conta
+  @tag1
+  Scenario: Abertura d econta PJ
+    Given que acesse a url "https://www.original.com.br/"
+    And clique no botao abrir conta
+    And clique no botao abrir conta para voce
+    When preencher o formulario de abertura de conta
+    And selecionar o botao quero ser cliente
+    Then sera exibido a mensagem falta pouco
+   
+
+ 
